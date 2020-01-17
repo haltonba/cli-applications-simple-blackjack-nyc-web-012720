@@ -36,6 +36,7 @@ def hit?
   end
   if get_user_input != 'h' && get_user_input != 's'
     puts ""
+  end
 end
 
 def invalid_command
