@@ -53,5 +53,12 @@ end
 
 def runner
   welcome
+  hand = initial_round
+  hitter = hit?(hand)
+  while hitter <= 21 do
+    hitter
+    display_card_total(hitter)
+  end
+  end_game(hitter)
 end
     
