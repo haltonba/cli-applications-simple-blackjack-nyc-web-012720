@@ -52,6 +52,6 @@ end
 #####################################################
 
 def runner
-  hello = welcome
+  welcome
 end
     
